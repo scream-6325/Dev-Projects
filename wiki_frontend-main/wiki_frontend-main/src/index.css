@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-poppin {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-mystery {
+  font-family: "Mystery Quest", cursive;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.cutomScrollBar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.cutomScrollBar::-webkit-scrollbar-thumb {
+  background-color: #717a97;
+  border-radius: 10px;
+}
+
+.cutomScrollBar::-webkit-scrollbar-track {
+  background-color: #d5d1d1;
+}
+
+.drop-hide {
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+.drop-show {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
